@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const IndexPage = () => <h1>Hello, Next.js</h1>;
+import 'normalize.css';
+
+const IndexPage = () => <h1>Hello, Next</h1>;
 
 export default IndexPage;

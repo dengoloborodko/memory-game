@@ -1,5 +1,10 @@
 import React from 'react';
+import { Header } from '../components/Header';
 
-const HomePage = () => <h1>Hello, Next.js!</h1>;
+const HomePage = () => (
+  <>
+    <Header />
+  </>
+);
 
 export default HomePage;

@@ -1,8 +1,9 @@
-type BreakPointKey = 'small' | 'medium' | 'large' | 'extraLarge';
+type BreakPointKey = 'xSmall' | 'small' | 'medium' | 'large' | 'extraLarge';
 type BreakPointsList = Record<BreakPointKey, number>;
 export type MediaQueriesList = Record<BreakPointKey, string>;
 
 const breakPoints: BreakPointsList = {
+  xSmall: 400,
   small: 576,
   medium: 768,
   large: 992,

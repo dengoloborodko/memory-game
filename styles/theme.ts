@@ -47,6 +47,7 @@ export const theme = {
     }
   },
   colors: {
+    lightGrey: '#eee',
     black: '#000',
     white: '#fff',
     red: '#d94f5c'

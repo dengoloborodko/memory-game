@@ -22,7 +22,8 @@ const constructListOfMediaRulesForHTMLFontSize = (
 
 export const globalStyles = (theme: Theme) => ({
   body: {
-    fontFamily: theme.font.family.primary
+    fontFamily: theme.font.family.primary,
+    backgroundColor: theme.colors.lightGrey
   },
   ul: {
     padding: 0

@@ -7,12 +7,10 @@ import { theme, globalStyles } from '../styles';
 import 'normalize.css';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => (
-  <>
+  <ThemeProvider theme={theme}>
     <Global styles={globalStyles} />
-    <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
-    </ThemeProvider>
-  </>
+    <Component {...pageProps} />
+  </ThemeProvider>
 );
 
 export default App;

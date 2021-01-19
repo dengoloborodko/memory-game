@@ -2,6 +2,6 @@ import React from 'react';
 
 import { StartMenu } from '../components/StartMenu';
 
-const HomePage = () => <StartMenu showNewGame />;
+const RulesPage = () => <StartMenu showRules />;
 
-export default HomePage;
+export default RulesPage;

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import Link from 'next/link';
 
+import { Link } from '../../UI/Link';
 import { ROUTES } from '../../../constants';
 import * as Styled from './styles';
 
@@ -10,14 +10,10 @@ export const Header: FC = () => (
     <nav>
       <Styled.List>
         <li>
-          <Link href={ROUTES.home} passHref>
-            <Styled.Link>Game</Styled.Link>
-          </Link>
+          <Link text="Game" href={ROUTES.home} passHref />
         </li>
         <li>
-          <Link href={ROUTES.rules} passHref>
-            <Styled.Link>Rules</Styled.Link>
-          </Link>
+          <Link text="Rules" href={ROUTES.rules} passHref />
         </li>
       </Styled.List>
     </nav>

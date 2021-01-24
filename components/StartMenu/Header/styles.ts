@@ -25,22 +25,3 @@ export const List = styled.ul({
     display: 'flex'
   }
 });
-
-export const Link = styled.a(
-  {
-    fontSize: '1.5rem',
-    textDecoration: 'none',
-    margin: '0 1.3rem',
-    padding: '0.8rem 0',
-    borderBottom: '2px solid transparent',
-    outline: 'none'
-  },
-  ({ theme }) => ({
-    fontWeight: theme.font.weight.regular,
-    color: theme.colors.black,
-    transition: `border-color ${theme.transition.duration} ${theme.transition.timingFunction}`,
-    ':hover, :focus': {
-      borderColor: theme.colors.red
-    }
-  })
-);

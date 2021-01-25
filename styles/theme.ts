@@ -50,6 +50,7 @@ export const theme = {
     lightGrey: '#eee',
     black: '#000',
     white: '#fff',
+    lightRed: '#ffb0b0',
     red: '#d94f5c'
   },
   transition: {

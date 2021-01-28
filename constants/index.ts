@@ -1,3 +1,4 @@
 import { ROUTES } from './routes';
+import { GAME_LEVELS_CONDITIONS, GAME_LEVELS_CONDITIONS_OPTIONS } from './game';
 
-export { ROUTES };
+export { ROUTES, GAME_LEVELS_CONDITIONS, GAME_LEVELS_CONDITIONS_OPTIONS };

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { Link } from '../../UI/Link';
+import { Link } from '../../UI';
 import { ROUTES } from '../../../constants';
 import * as Styled from './styles';
 

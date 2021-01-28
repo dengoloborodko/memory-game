@@ -12,12 +12,14 @@ export const StyledSelect: FC<ReactSelectProps> = props => {
         control: styles => ({
           ...styles,
           minWidth: '15rem',
-          cursor: 'pointer'
+          cursor: 'pointer',
+          textTransform: 'capitalize'
         }),
         option: styles => ({
           ...styles,
           cursor: 'pointer',
-          textAlign: 'left'
+          textAlign: 'left',
+          textTransform: 'capitalize'
         })
       }}
       theme={selectTheme => ({
